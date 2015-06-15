@@ -3,6 +3,7 @@
 .cal th{border:1px solid #acacac;padding:5px;background:#ede9e9;}
 .cal td{border:1px solid #acacac;padding:5px;background:#ede9e9;text-align:center;}
 </style>
+
 <div style="float:left;margin:10px 15px 0 0;">
 <label>
 <input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
@@ -60,11 +61,11 @@
 </tr>
 </table>
 
-<script src="myscript.js"></script>
-
-<!-- script>
+<script>
 function btnClick() {
-    var x = document.getElementById("mytable").getElementsByTagName("td");
-    x[0].style.backgroundColor = "yellow";       
+	var x,n;
+	x = document.getElementById("mytable").getElementsByTagName("td");
+    x[0].style.backgroundColor = "yellow";
+    x[5].style.backgroundColor = "red";        
 }
-</script -->
+</script>
