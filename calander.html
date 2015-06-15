@@ -5,59 +5,66 @@
 </style>
 <div style="float:left;margin:10px 15px 0 0;">
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 09:30 AM-10:30 AM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 10:30 AM-11:30 AM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 11:30 AM-12:30 PM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 12:30 PM-01:30 PM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 02:00 PM-03:00 PM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 03:00 PM-04:00 PM
 </label>
 <br>
 <label>
-<input class="radio_chk" type="radio" onclick="change_slot(6729405);" value="6729405" name="myradio">
+<input id="radio_chk" type="radio" value="555" OnClick = "btnClick()" name="myradio">
 04:00 PM-05:00 PM
 </label>
 </div>
-<table class="cal">
+<table id = "mytable" class="cal">
 <tr>
 <th>Mon</th><th>Tues</th><th>Wed</th><th>Thurs</th><th>Fri</th><th>Sat</th><th>Sun</th>
 </tr>
 <tr>
-<td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>
+<td class = "td">1</td> <td class = "td">2</td> <td class = "td">3</td> <td class = "td">4</td> <td class = "td">5</td> <td class = "td">6</td> <td class = "td">7</td>
 </tr>
 <tr>
-<td>8</td> <td>9</td> <td>10</td> <td>11</td> <td>12</td> <td>13</td> <td>14</td>
+<td class = "td">8</td> <td class = "td">9</td> <td class = "td">10</td> <td class = "td">11</td> <td class = "td">12</td> <td class = "td">13</td> <td class = "td">14</td>
 </tr>
 <tr>
-<td>16</td> <td>17</td> <td>18</td> <td>19</td> <td>20</td> <td>21</td> <td>22</td>
+<td class = "td">16</td> <td class = "td">17</td> <td class = "td">18</td> <td class = "td">19</td> <td class = "td">20</td> <td class = "td">21</td> <td class = "td">22</td>
 </tr>
 <tr>
-<td>23</td> <td>24</td> <td>25</td> <td>26</td> <td>27</td> <td>28</td> <td>29</td>
+<td class = "td">23</td> <td class = "td">24</td> <td class = "td">25</td> <td class = "td">26</td> <td class = "td">27</td> <td class = "td">28</td> <td class = "td">29</td>
 </tr>
 <tr>
-<td>30</td>
+<td class = "td">30</td>
 </tr>
 </table>
 
 <script src="myscript.js"></script>
+
+<!-- script>
+function btnClick() {
+    var x = document.getElementById("mytable").getElementsByTagName("td");
+    x[0].style.backgroundColor = "yellow";       
+}
+</script -->
